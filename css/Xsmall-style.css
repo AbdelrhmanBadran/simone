@@ -1,0 +1,537 @@
+
+/*===============*/
+/* <!--start navbar --> */
+
+.containe{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    /* background-color: yellowgreen; */
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+    height: 75%;
+    /* background-color: violet; */
+}
+.logo img{
+    width: 10px;
+    height: 50%;
+    /* background-color: violet; */
+}
+
+.nav label{
+    font-size: 30px;
+    color: #fff ;
+    display: block ;
+}
+
+
+
+.logo img{
+    height: 100%;
+    width: 120px;
+}
+
+.nav .containe #menu:checked ~ .links{
+    height: 100vh;  
+
+}
+
+.links{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 0;  
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.53);
+    transition: 1s all;
+
+}
+.links a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px 0;
+    display: block;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    /* height: 100%; */
+}
+
+/* <!--end navbar --> */
+
+/*===========================*/
+
+
+/* <!-- start home --> */
+
+
+
+.home-caption p{
+    font-size: 15px;
+}
+
+.home-caption p:first-child{
+    font-size: 20px;
+}
+
+
+.text-1{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    padding: 30px 0;
+}
+
+/* <!-- end home --> */
+
+
+
+/*====================================*/
+
+/* <!-- start about  --> */
+
+
+
+
+
+.text h2{
+    /* background-color: yellowgreen; */
+    width: 90%;
+    font-size: 40px;
+}
+
+.text p{
+    left: 30%;
+    font-size: 20px;
+    
+}
+
+.line{
+    display: inline-block;
+    width: 100px;
+    border: none;
+    border-top: 3px solid #20c997 ;
+}
+
+.about-caption{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    width: 95%;
+    margin: auto;
+    /* background-color: yellowgreen; */
+}
+.caption-left{
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+.caption-left h2{
+    font-size: 20px;
+
+}
+.caption-left p {
+    font-size: 15px;
+}
+.caption-right{
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+
+.numbers{
+    width: 95%;
+    flex-direction: column;
+}
+
+.number{
+    height: 100%;
+    /* background-color: #fff; */
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
+
+
+
+.number-1::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left:10%;
+    width: 80%;
+    height: 0.5px;
+    background-color: #e0dede;
+}
+
+.number-2::before{
+    content: "";
+    position: absolute;
+    top:25%;
+    left:10%;
+    width: 80%;
+    height: 0.5px;
+    background-color: #e0dede;
+}
+.number-2::after{
+    content: "";
+    position: absolute;
+    top:125%;
+    right:10%;
+    width: 80%;
+    height: 0.5px;
+    background-color: #e0dede;
+}
+
+/* <!-- end about  --> */
+
+/*===========================*/
+
+/* <!-- start services  --> */
+
+
+
+.services{
+    background-color: #f8f9fa;
+    width: 100%;
+    min-height: 600px;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+
+.contain{
+    width: 100%;
+    /* background-color: #252b33; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.service-right {
+    width: 100%;
+    /* background-color: #20c997; */
+}
+
+.service-right .mini{
+    display: flex;
+    padding: 30px 0;
+    width: 100%;
+
+}
+
+
+
+.service-caption h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: #252b33;
+
+}
+
+.service-caption p {
+    color: #4c4d4d;
+    font-size: 15px;
+}
+
+
+/* <!-- end services  --> */
+
+
+/*=====================*/
+
+/* <!-- start data  --> */
+
+
+.data{
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+
+.tables{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left,.right{
+    width: 100%;
+}
+.data-caption{
+    width: 100%;
+    /* background-color: #17a47c; */
+    margin-top: 50px;
+
+}
+.skills{
+    width: 100%;
+    /* background-color: yellowgreen; */
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills .lines h2{
+    color: #252b33;
+    font-weight: 600;
+}
+
+.lines{
+    width: 100%;
+    padding: 30px 15px;
+    background-color: #fff;
+    /* margin-top: 20px; */
+    /* background-color: yellowgreen; */
+
+}
+
+.user{
+    width: 100%;
+    padding: 15px 0;
+
+}
+/* <!-- end Data --> */
+
+/*==========================*/
+
+/* <!-- start portfolio --> */
+.portfolio-nav{
+    display: flex;
+    padding: 10px 0;
+    /* background-color: #20c997; */
+    width: 100%;
+    margin: auto;
+}
+.portfolio-nav a{
+    font-size: 10px;
+}
+.portfolio-box{
+    display: flex;
+    flex-direction: column;  
+}
+
+.work-item{
+    text-align: center;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px 0;  
+}
+
+/* <!-- end portfolio --> */
+
+/*=========================*/
+
+/* <!-- start feed --> */
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    /* background-color: #20c997; */
+
+}
+
+.card{
+    width: 100%;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 15px 15px;
+
+
+}
+
+.client-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards .client-details img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.client-adress{
+    margin-left: 0px;
+    font-weight: 200;
+    font-size: 15px;
+    /* background-color: #ffc107; */
+    text-align: center;
+}
+.client-adress h3{
+    margin-left: 0px;
+    font-weight: 400;
+}
+.client-adress p{
+    margin-left: 0;
+    font-weight: 400;
+    color: #4c4d4d;
+}
+
+.client-caption{
+    padding: 25px 0;
+    text-align: center;
+    /* background-color: yellowgreen; */
+}
+
+.client-caption p{
+    font-weight: 500;
+    color: #252b33;
+    font-size: 15px;
+}
+
+.rating{
+    margin: auto;
+    /* background-color: yellowgreen; */
+    text-align: center;
+}
+
+.rating .fa-star{
+    color: #ffc107;
+}
+
+
+.card1{
+    animation-name: x ;
+}
+/* <!-- end feed --> */
+
+
+/*===========================*/
+
+/* <!-- start contact --> */
+
+
+.cont{
+    flex-direction: column;
+    width: 90%;
+    /* background-color: #212529; */
+}
+.adress{
+    width: 100%;
+    text-align: center;
+    /* background-color: yellowgreen; */
+}
+
+.adress h3{
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #252b33;
+    font-weight: 500;
+}
+.adress p {
+    margin: 5px 0;
+    line-height: 1.8;
+    color: #5f5f64;
+}
+
+.adress p .fa-solid{
+    color: #20c997;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.message{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.message h3{
+    text-transform: uppercase;
+    line-height: 1.9;
+    color: #252b33;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.message .text-mail,.Email{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+
+.message textarea{
+    width: 100%;
+}
+::placeholder{
+    color: #6c757d83;
+    font-size: 15px;
+}
+
+/* <!-- end contact --> */
+
+/*================================*/
+
+/* <!-- start footer --> */
+
+
+.footer{
+    color: #252b33;
+    padding: 66px 0px;
+
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background: #20c997; */
+
+}
+.footer-container ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.footer-container p{
+    color: #4c4d4d;
+}
+.footer-container p a{
+    color: #20c997;
+}
+
+.nav-item{
+    padding: 0 ;
+}
+
+.nav-link{
+    color: #4c4d4d;
+    transition: 0.5s all;
+}
+.nav-link:hover{
+    color: #20c997;
+}
+
+.footer-container ul span{
+    color: #6c757d58;
+}
+
+/* <!-- end footer --> */
